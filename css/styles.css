@@ -1,0 +1,96 @@
+.title-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+  font-weight: bold;
+}
+.body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.body-text {
+  border-radius: 8px;
+  background: var(--slate, #434455);
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) inset;
+}
+.small-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: regular;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 4%;
+}
+.button-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
+.link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: regular;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  text-decoration: underline;
+  cursor: pointer;
+  border-radius: 4px;
+  background: var(--slate, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.link:hover {
+  border-radius: 4px;
+  background: var(--slate, #404bbf);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.button {
+  cursor: pointer;
+  border-radius: 4px;
+  background: var(--slate, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.button:hover {
+  border-radius: 4px;
+  background: var(--slate, #404bbf);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.logo-web {
+  font-family: 'Raleway' sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--slate, #4d5ae5);
+}
+.logo-studio {
+  font-family: 'Raleway' sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--slate, #2e2f42);
+}
+.main-first {
+  background: var(--navyblue, #2e2f42);
+}
+.main-second {
+  background: #fff;
+}
+.main-three {
+  background: var(--cloud, #f4f4fd);
+}
+.footer {
+  background: var(--navyblue, #2e2f42);
+}
+:root {
+  --navyblue: #2e2f42;
+}
