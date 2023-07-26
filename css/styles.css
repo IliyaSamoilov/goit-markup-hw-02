@@ -1,4 +1,8 @@
-body {
+:root {
+  --text: #2e2f42;
+  --text-one: #434455;
+}
+.body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -16,10 +20,10 @@ body {
   text-decoration: none;
   color: #2e2f42;
 }
-nav {
+.nav {
   list-style: none;
 }
-address {
+.address {
   font-style: normal;
 }
 .address-link {
@@ -29,15 +33,15 @@ address {
   line-height: 1.5;
   color: #434455;
 }
-.address-link:hover,
-.address-link:focus {
+.address .link:hover,
+.address .link:focus {
   text-decoration: none;
   color: #404bbf;
 }
 .section {
   background-color: #2e2f42;
 }
-.section-text {
+h1 {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -54,30 +58,25 @@ button {
   color: #ffffff;
   cursor: pointer;
 }
-.button:hover,
-.button:focus {
+button .link:hover,
+button .link:focus {
   background-color: #404bbf;
 }
-.section-second {
+.list {
   list-style: none;
 }
-ul,
-ol {
-  list-style: none;
-}
-h1,
-h2,
-h3 {
+.section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--text, #2e2f42);
 }
-p {
-  line-height: 1.5;
+.list-item-title {
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-one, #434455);
 }
 .section-three {
   font-size: 36px;
@@ -103,6 +102,10 @@ p {
   list-style: none;
   background-color: #ffffff;
 }
-footer {
+.footer {
   background-color: #2e2f42;
+}
+.p-footer {
+  line-height: 1.5;
+  color: #f4f4fd;
 }
