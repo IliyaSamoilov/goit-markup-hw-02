@@ -1,9 +1,11 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: regular;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
+  color: #434455;
+  background-color: #ffffff;
 }
 button {
   background-color: #4d5ae5;
@@ -19,13 +21,18 @@ button {
   color: #ffffff;
   background-color: #404bbf;
 }
+.button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
 header {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 2%;
-  line-height: 60px;
+  line-height: 1.07;
   background-color: #e7e9fc;
+  text-align: center;
 }
 p {
   font-family: 'Roboto', sans-serif;
@@ -35,12 +42,10 @@ p {
   letter-spacing: 4%;
 }
 h1 {
-  font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 2%;
   color: #ffffff;
 }
 .section-one {
