@@ -13,7 +13,7 @@ body {
   color: #4d5ae5;
   text-decoration: none;
 }
-.logo.link {
+link .logo {
   text-decoration: none;
 }
 .logo span {
@@ -87,12 +87,15 @@ address {
 .button:focus {
   color: #404bbf;
 }
-.strategy {
+strategy {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  list-style: none;
+}
+list strategy {
   list-style: none;
 }
 .text {
@@ -110,6 +113,9 @@ address {
   color: #2e2f42;
   list-style: none;
 }
+list doing {
+  list-style: none;
+}
 .team {
   background-color: #f4f4fd;
 }
@@ -124,6 +130,9 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+list people {
+  list-style: none;
+}
 .footer {
   background-color: #2e2f42;
 }
@@ -132,6 +141,9 @@ address {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-.nav.list {
+list nav {
+  list-style: none;
+}
+address list {
   list-style: none;
 }
