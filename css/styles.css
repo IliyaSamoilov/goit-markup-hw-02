@@ -1,3 +1,8 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -8,27 +13,27 @@
   color: #4d5ae5;
   text-decoration: none;
 }
-.logo-link {
+.link {
   text-decoration: none;
 }
 .logo span {
   color: #2e2f42;
 }
-.link {
+.footer span {
+  color: #f4f4fd;
+}
+.studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.link-text {
-  text-decoration: none;
-}
-.link:hover,
-.link:focus {
+.studio:hover,
+.studio:focus {
   color: #404bbf;
 }
-address {
+.address {
   font-style: normal;
 }
 .contact-list {
@@ -46,4 +51,63 @@ address {
 .address-text:hover,
 .address-text:focus {
   color: #404bbf;
+}
+.section {
+  background-color: #2e2f42;
+}
+.titel {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+}
+.button:hover,
+.button:focus {
+  color: #404bbf;
+}
+.strategy {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.doing {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.ul-list {
+  list-style: none;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
