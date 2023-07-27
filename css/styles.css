@@ -81,11 +81,9 @@ address {
   cursor: pointer;
   background-color: #4d5ae5;
 }
-.button:hover {
-  color: #404bbf;
-}
+.button:hover,
 .button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 strategy {
   font-weight: 500;
@@ -123,7 +121,6 @@ list doing {
   list-style: none;
 }
 .people {
-  background-color: #ffffff;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
