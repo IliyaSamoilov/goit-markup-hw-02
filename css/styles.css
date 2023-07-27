@@ -13,7 +13,7 @@ body {
   color: #4d5ae5;
   text-decoration: none;
 }
-link .logo {
+.logo..link {
   text-decoration: none;
 }
 .logo span {
@@ -21,6 +21,9 @@ link .logo {
 }
 .footer span {
   color: #f4f4fd;
+}
+.nav .list {
+  list-style: none;
 }
 studio {
   font-weight: 500;
@@ -85,7 +88,7 @@ address {
 .button:focus {
   background-color: #404bbf;
 }
-strategy {
+.strategy {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -93,7 +96,7 @@ strategy {
   color: #2e2f42;
   list-style: none;
 }
-list strategy {
+.list .strategy {
   list-style: none;
 }
 .text {
@@ -111,8 +114,11 @@ list strategy {
   color: #2e2f42;
   list-style: none;
 }
-list doing {
+.doig .list {
   list-style: none;
+}
+.ul .doing {
+  background-color: #ffffff;
 }
 .team {
   background-color: #f4f4fd;
