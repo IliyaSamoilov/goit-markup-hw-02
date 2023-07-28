@@ -5,6 +5,9 @@
   --titel-color: #2e2f42;
   --gray: #434455;
 }
+header {
+  list-style: none;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--gray);
