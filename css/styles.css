@@ -10,7 +10,7 @@ body {
   color: var(--gray);
   background-color: var(--white);
 }
-.link .logo {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -29,7 +29,7 @@ body {
 .list .ul {
   list-style: none;
 }
-.link .studio {
+.studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -41,18 +41,18 @@ body {
 .link .studio:focus {
   color: var(--navyblue);
 }
-.list .address {
+.address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--gray);
   text-decoration: none;
 }
-.link .li {
-  text-decoration: none;
+.style.address {
+  list-style: none;
 }
-.list .address:hovr,
-.list .address:focus {
+.address:hover,
+.address:focus {
   color: var(--navyblue);
 }
 .section-one {
@@ -79,7 +79,7 @@ body {
 .button:focus {
   background-color: #404bbf;
 }
-.section-twoe {
+.list .section-twoe {
   list-style: none;
 }
 .titel-twoe {
