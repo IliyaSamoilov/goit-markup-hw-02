@@ -55,7 +55,7 @@ body {
   text-decoration: none;
 }
 
-.address {
+.contact-address {
   font-style: normal;
 }
 
@@ -104,10 +104,7 @@ body {
   color: var(--titel-color);
 }
 .text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--gray);
+  /
 }
 .titel-three {
   font-size: 36px;
@@ -151,4 +148,32 @@ body {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+.button-portfolio {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--blue);
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--white);
+  background-color: var(--navyblue);
+}
+.titel-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--titel-color);
+}
+.text-portfolio{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--gray);
 }
