@@ -58,11 +58,7 @@ body {
 .contact-address {
   font-style: normal;
 }
-
-.list.address {
-  list-style: none;
-}
-.li .address {
+.link .address {
   text-decoration: none;
 }
 .address:hover,
@@ -104,7 +100,10 @@ body {
   color: var(--titel-color);
 }
 .text {
-  /
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--gray);
 }
 .titel-three {
   font-size: 36px;
@@ -171,7 +170,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--titel-color);
 }
-.text-portfolio{
+.text-portfolio {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
